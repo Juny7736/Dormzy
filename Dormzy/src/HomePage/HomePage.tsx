@@ -10,7 +10,7 @@ function HomePage() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPos = window.scrollY;
-      const index = Math.min(Math.floor(scrollPos / 125), words.length - 1);
+      const index = Math.min(Math.floor(scrollPos / 100), words.length - 1);
       setCurrentWord(words[index]);
     };
 
