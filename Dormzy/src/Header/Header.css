@@ -1,0 +1,51 @@
+/* Sticky Header */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  padding: 15px 20px;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Flexbox container inside the header */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.titleName {
+  font-size: 30px;
+  color: #9caf88;
+  font-weight: Bold;
+  font-family: "Montserrat";
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+/* .nav ul li {
+  margin-left: 50px;
+} */
+
+.nav ul li a {
+  font-size: 20px;
+  color: #000;
+  font-weight: Medium;
+  font-family: "Montserrat";
+  transition: color 0.3s ease;
+}
+
+/* nav ul li a:hover {
+  color: #ff5733;
+} */
