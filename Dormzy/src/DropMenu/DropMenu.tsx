@@ -56,7 +56,7 @@ const Menu: React.FC = () => {
 
   return (
     <div className="dropdown-container">
-      <DropdownMenu>
+      <DropdownMenu modal={false}>
         <DropdownMenuTrigger asChild>
           <button type="button" className="dropdown-trigger">
             <div className="hamburger">
