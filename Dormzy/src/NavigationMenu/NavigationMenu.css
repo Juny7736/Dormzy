@@ -1,8 +1,6 @@
-.nav-container {
+/* .nav-container {
   padding: 1rem 2rem;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .nav-list {
   display: flex;
@@ -20,8 +18,9 @@
 .nav-link {
   color: #6b7280;
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: Bold;
+  font-family: "Montserrat";
   transition: color 0.2s ease;
   position: relative;
 }
@@ -41,7 +40,7 @@
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #84cc16;
+  background-color: #9caf88;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease-in-out;
